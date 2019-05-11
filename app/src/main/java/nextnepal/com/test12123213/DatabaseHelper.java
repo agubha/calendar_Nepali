@@ -13,19 +13,30 @@ import java.util.ArrayList;
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "DatabaseHelper.Sqlite";
     private static String dbNAME = "HamroPatro";
-    private static String tableNAME = "NepPatro";
+    private static String patroDateTable = "NepPatro";
+    private static String patroEventTable = "NepPatroEvent";
     private static int VERSION = 1;
 
-    String createTableUser = "CREATE TABLE IF NOT EXISTS `NepPatro` (\n" +
-            "\t`year`\tINTEGER,\n" +
-            "\t`month`\tINTEGER,\n" +
-            "\t`day`\tINTEGER,\n" +
+    String createTablePatro = "CREATE TABLE IF NOT EXISTS `NepPatro` (\n" +
+            "\t`nyear`\tINTEGER,\n" +
+            "\t`nmonth`\tINTEGER,\n" +
+            "\t`nday`\tINTEGER,\n" +
+            "\t`eyear`\tINTEGER,\n" +
+            "\t`emonth`\tINTEGER,\n" +
+            "\t`eday`\tINTEGER,\n" +
             "\t`dayOfWeek`\tINTEGER,\n" +
-            "\t`startingDay`\tINTEGER,\n" +
             "\t`id`\tTEXT,\n" +
             "\tPRIMARY KEY(`id`)\n" +
             ")";
 
+    String createTableEvent = "CREATE TABLE IF NOT EXISTS `NepPatroEvent` (\n" +
+            "\t`event_detail_np`\tTEXT,\n" +
+            "\t`event_detail_en`\tTEXT,\n" +
+            "\t`tithe`\tTEXT,\n" +
+            "\t`holiday`\tINTEGER,\n" +
+            "\t`event_id`\tTEXT,\n" +
+            "\tPRIMARY KEY(`event_id`)\n" +
+            ")";
 
     private Context context;
 
@@ -36,37 +47,58 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     ArrayList<PatroModel> loadMonth(int year, int month) {
         ArrayList<PatroModel> patroList = new ArrayList<>();
-        String sql = "Select * from " + tableNAME + " Where year=" + year + " and month=" + month;
+        String sql = "Select * from " + patroDateTable + " Where nyear = " + year + " and nmonth = " + month;
 
         getReadableDatabase().rawQuery(sql, null);
         Cursor c = getReadableDatabase().rawQuery(sql, null);
         while (c.moveToNext()) {
-            PatroModel patroModel = new PatroModel();
-            patroModel.setYear(c.getInt(c.getColumnIndex("year")));
-            patroModel.setMonth(c.getInt(c.getColumnIndex("month")));
-            patroModel.setDay(c.getInt(c.getColumnIndex("day")));
-            patroModel.setId(c.getString(c.getColumnIndex("id")));
-            patroModel.setDayOfWeek(c.getInt(c.getColumnIndex("dayOfWeek")));
-            patroModel.setStartingDay(c.getInt(c.getColumnIndex("startingDay")));
+            int nyear = c.getInt(c.getColumnIndex("nyear"));
+            int nmonth = c.getInt(c.getColumnIndex("nmonth"));
+            int nday = c.getInt(c.getColumnIndex("nday"));
+            int eyear = c.getInt(c.getColumnIndex("eyear"));
+            int emonth = c.getInt(c.getColumnIndex("emonth"));
+            int eday = c.getInt(c.getColumnIndex("eday"));
+            String id = c.getString(c.getColumnIndex("id"));
+            int dayOfWeek = c.getInt(c.getColumnIndex("dayOfWeek"));
+            PatroModel patroModel = new PatroModel(nyear, nmonth, nday, eyear, emonth, eday, id, dayOfWeek);
             patroList.add(patroModel);
 
         }
         return patroList;
     }
 
+    EventDb loadPatroEvent(String id) {
+        EventDb eventDb = null;
+        String sql = "SELECT * FROM " + patroEventTable + " WHERE event_id =" + " '" + id + "' ";
+        Log.d("SQL QUERY =", "" + sql);
+        Cursor c = getReadableDatabase().rawQuery(sql, null);
+        while (c.moveToNext()) {
+            String event_id = c.getString(c.getColumnIndex("event_id"));
+            String event_detail_np = c.getString(c.getColumnIndex("event_detail_np"));
+            String event_detail_en = c.getString(c.getColumnIndex("event_detail_en"));
+            String tithe = c.getString(c.getColumnIndex("tithe"));
+            int holiday = c.getInt(c.getColumnIndex("holiday"));
+            eventDb = new EventDb(event_id, event_detail_np, event_detail_en, tithe, holiday);
+        }
+        c.close();
+        return eventDb;
+    }
+
     ArrayList<PatroModel> loadDate() {
         ArrayList<PatroModel> patroList = new ArrayList<>();
-        String sql = "Select * from " + tableNAME;
+        String sql = "Select * from " + patroDateTable;
         getReadableDatabase().rawQuery(sql, null);
         Cursor c = getReadableDatabase().rawQuery(sql, null);
         while (c.moveToNext()) {
-            PatroModel patroModel = new PatroModel();
-            patroModel.setYear(c.getInt(c.getColumnIndex("year")));
-            patroModel.setMonth(c.getInt(c.getColumnIndex("month")));
-            patroModel.setDay(c.getInt(c.getColumnIndex("day")));
-            patroModel.setId(c.getString(c.getColumnIndex("id")));
-            patroModel.setDayOfWeek(c.getInt(c.getColumnIndex("dayOfWeek")));
-            patroModel.setStartingDay(c.getInt(c.getColumnIndex("startingDay")));
+            int nyear = c.getInt(c.getColumnIndex("nyear"));
+            int nmonth = c.getInt(c.getColumnIndex("nmonth"));
+            int nday = c.getInt(c.getColumnIndex("nday"));
+            int eyear = c.getInt(c.getColumnIndex("eyear"));
+            int emonth = c.getInt(c.getColumnIndex("emonth"));
+            int eday = c.getInt(c.getColumnIndex("eday"));
+            String id = c.getString(c.getColumnIndex("id"));
+            int dayOfWeek = c.getInt(c.getColumnIndex("dayOfWeek"));
+            PatroModel patroModel = new PatroModel(nyear, nmonth, nday, eyear, emonth, eday, id, dayOfWeek);
             patroList.add(patroModel);
 
         }
@@ -77,18 +109,29 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(createTableUser);
+        db.execSQL(createTablePatro);
+        db.execSQL(createTableEvent);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
                 + newVersion + ", which will destroy all old data");
-        db.execSQL("DROP TABLE IF EXISTS " + tableNAME);
+        db.execSQL("DROP TABLE IF EXISTS " + patroDateTable);
+        Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
+                + newVersion + ", which will destroy all old data");
+        db.execSQL("DROP TABLE IF EXISTS " + patroEventTable);
         onCreate(db);
     }
 
     void insertDate(ContentValues cv) {
-        getWritableDatabase().insert(tableNAME, "", cv);
+        getWritableDatabase().insert(patroDateTable, "", cv);
     }
+
+
+    Long insertIvents(ContentValues contentValues) {
+        return getWritableDatabase().insert(patroEventTable, "", contentValues);
+    }
+
+
 }

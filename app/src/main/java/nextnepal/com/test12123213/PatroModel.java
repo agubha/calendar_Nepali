@@ -2,35 +2,72 @@ package nextnepal.com.test12123213;
 
 public class PatroModel {
 
-    private int year;
-    private int month;
-    private int day;
+    private int nyear;
+    private int nmonth;
+    private int nday;
+    private int eyear;
+    private int emonth;
+    private int eday;
     private String id;
     private int dayOfWeek;
-    private int startingDay;
 
-    public int getYear() {
-        return year;
+    public PatroModel(int nyear, int nmonth, int nday, int eyear, int emonth, int eday, String id, int dayOfWeek) {
+        this.nyear = nyear;
+        this.nmonth = nmonth;
+        this.nday = nday;
+        this.eyear = eyear;
+        this.emonth = emonth;
+        this.eday = eday;
+        this.id = id;
+        this.dayOfWeek = dayOfWeek;
     }
 
-    void setYear(int year) {
-        this.year = year;
+    public int getNyear() {
+        return nyear;
     }
 
-    public int getMonth() {
-        return month;
+    public void setNyear(int nyear) {
+        this.nyear = nyear;
     }
 
-    void setMonth(int month) {
-        this.month = month;
+    public int getNmonth() {
+        return nmonth;
     }
 
-    int getDay() {
-        return day;
+    public void setNmonth(int nmonth) {
+        this.nmonth = nmonth;
     }
 
-    void setDay(int day) {
-        this.day = day;
+    public int getNday() {
+        return nday;
+    }
+
+    public void setNday(int nday) {
+        this.nday = nday;
+    }
+
+    public int getEyear() {
+        return eyear;
+    }
+
+    public void setEyear(int eyear) {
+        this.eyear = eyear;
+    }
+
+    public int getEmonth() {
+        return emonth;
+    }
+
+    public void setEmonth(int emonth) {
+        this.emonth = emonth;
+    }
+
+    public int getEday() {
+        return eday;
+    }
+
+    public void setEday(int eday) {
+        this.eday = eday;
     }
 
     public String getId() {
@@ -49,11 +86,5 @@ public class PatroModel {
         this.dayOfWeek = dayOfWeek;
     }
 
-    public int getStartingDay() {
-        return startingDay;
-    }
 
-    void setStartingDay(int startingDay) {
-        this.startingDay = startingDay;
-    }
 }

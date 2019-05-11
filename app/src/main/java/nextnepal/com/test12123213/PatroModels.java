@@ -5,7 +5,7 @@ import android.support.annotation.IntRange;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Model {
+public class PatroModels {
     private int day;
     private int year;
     private int month;
@@ -19,7 +19,7 @@ public class Model {
         this.dayOfWeek = dayOfWeek;
     }
 
-    public Model() {
+    public PatroModels() {
         GregorianCalendar date = new GregorianCalendar();
         day = date.get(GregorianCalendar.DAY_OF_MONTH);
         month = date.get(GregorianCalendar.MONTH) + 1;
@@ -27,9 +27,9 @@ public class Model {
         dayOfWeek = date.get(Calendar.DAY_OF_WEEK);
     }
 
-    public Model(@IntRange(from=1970,to=2090) int year,
-                 @IntRange(from = 0, to = 12) int month,
-                 @IntRange(from = 1, to = 32) int day) {
+    public PatroModels(@IntRange(from=1970,to=2090) int year,
+                       @IntRange(from = 0, to = 12) int month,
+                       @IntRange(from = 1, to = 32) int day) {
         this.year = year;
         this.month = month;
         this.day = day;

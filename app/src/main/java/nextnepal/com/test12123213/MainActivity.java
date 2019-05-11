@@ -2,33 +2,64 @@ package nextnepal.com.test12123213;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.IntRange;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.JsonReader;
 import android.util.Log;
 import android.util.SparseArray;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TableLayout;
-import android.widget.TableRow;
+import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
+
+import net.danlew.android.joda.JodaTimeAndroid;
+
 import org.joda.time.DateTime;
 import org.joda.time.Days;
+import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    EditText month, day, year;
     Button btn_submit;
     private SparseArray<int[]> daysInMonthMap;
     private SparseArray<int[]> startWeekDayMonthMap;
     private DatabaseHelper databaseHelper;
-    private TableLayout tableLayout;
+    private GridView grid_view;
+    private GridViewAdapter gridViewAdapter;
+    private Button next, previous;
+    private int cur_N_Year, cur_N_Month, cur_N_Day;
+    private int sel_N_Year, sel_N_Month, sel_N_Day;
+    private float x1, x2, y1, y2;
+    static final int MIN_DISTANCE = 150;
+    ArrayList<PatroModel> temparray = new ArrayList<>();
+    private TextView year, month;
 
     private static boolean isNepDateInConversionRange(int yy, int mm, int dd) {
         return (yy >= 1970 && yy <= 2090) && (mm >= 1 && mm <= 12) && (dd >= 1 && dd <= 32);
@@ -47,48 +78,227 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //need app init
+        JodaTimeAndroid.init(this);
         setContentView(R.layout.activity_main);
-        initDatabase();
         initializeData();
+        initDatabase();
         getViews();
+//        performLoop();
+//        saveEvents();
+//        loadDATA
+        //patro
+        gridViewAdapter = new GridViewAdapter(MainActivity.this);
+//        grid_view.setEnabled(false);
+        grid_view.setAdapter(gridViewAdapter);
+
+
         btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                performLoop();
-                createGrid();
+                getCurrentDatesNep();
+                updateGrids();
+            }
+        });
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                increaseDay();
+            }
+        });
+        previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                decreaseDay();
             }
         });
     }
 
-    private void performLoop() {
-        new LongOperation().execute("");
+
+    private void decreaseDay() {
+        if (sel_N_Month == 1) {
+            sel_N_Month = 12;
+            sel_N_Year--;
+        } else {
+            sel_N_Month--;
+        }
+        updateGrids();
     }
 
-    private void createGrid() {
+    private void increaseDay() {
 
-        ArrayList<PatroModel> patroModelArrayList = databaseHelper.loadMonth(2012, 1);
-        Log.d("SIZE FILTER", "" + patroModelArrayList.size());
-        tableLayout = findViewById(R.id.table_layout);
-        tableLayout.setStretchAllColumns(true);
-        TextView tv;
-        int counter = patroModelArrayList.size();
-        int k = 0;
-        for (int i = 0; i <= 7; i++) {
-            TableRow row = new TableRow(this);
-            TableRow.LayoutParams lp = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT);
-            row.setLayoutParams(lp);
-            for (int j = 0; j <= 6; j++) {
-                if (k < counter) {
-                    tv = new TextView(this);
-                    tv.setPadding(5, 5, 5, 5);
-                    tv.setText(patroModelArrayList.get(k).getDay() + "");
-                    tv.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                    row.addView(tv);
-                    k++;
-                }
-            }
-            tableLayout.addView(row, i);
+        if (sel_N_Month == 12) {
+            sel_N_Month = 1;
+            sel_N_Year++;
+        } else {
+            sel_N_Month++;
         }
+        updateGrids();
+    }
+
+
+    private void getCurrentDatesNep() {
+        Calendar calendar = Calendar.getInstance();
+        int year = calendar.get(Calendar.YEAR);
+        int month = calendar.get(Calendar.MONTH);
+        month++;//Baisakh = 0 BUT JANUARY IS 1 xD
+        int day = calendar.get(Calendar.DATE);
+        PatroModels patroModels = getNepaliDate(year, month, day);
+        //setCuirrent Date
+        cur_N_Year = patroModels.getYear();
+        cur_N_Month = patroModels.getMonth() + 1;
+        cur_N_Day = patroModels.getDay();
+        Log.d("getCurrentDatesNep", "Year" + cur_N_Year + "Month" + cur_N_Month + "Day" + cur_N_Day);
+        //set initial Date;
+        sel_N_Year = cur_N_Year;
+        sel_N_Month = cur_N_Month;
+        sel_N_Day = cur_N_Day;
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    private void updateGrids() {
+        temparray = new ArrayList<>();
+        Log.d("UPDATE GRID WITH DATE:-", "Year" + sel_N_Year + "Month" + sel_N_Month);
+        ArrayList<PatroModel> listOfDaysInMonth = databaseHelper.loadMonth(sel_N_Year, sel_N_Month);
+        int starting_day_gap = listOfDaysInMonth.get(0).getDayOfWeek();
+        for (int i = 1; i < starting_day_gap; i++) {
+            PatroModel patrotemp = new PatroModel(0, 0, 0, 0, 0, 0, null, 0);
+            temparray.add(patrotemp);
+        }
+        temparray.addAll(listOfDaysInMonth);
+        gridViewAdapter.setDays(temparray);
+        grid_view.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        x1 = event.getX();
+                        y1 = event.getY();
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        x2 = event.getX();
+                        y2 = event.getY();
+                        if (x1 == x2 && y1 == y2) {
+                            //init touch
+                            Log.d("GRidView", "ACTION_UP INIT CLICK");
+                            grid_view.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                @Override
+                                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                    String ids = temparray.get(position).getId();
+                                    Log.d("ID===", "" + ids);
+                                    EventDb eventDb = databaseHelper.loadPatroEvent(ids);
+                                    Toast.makeText(MainActivity.this, "" + eventDb.getEventDetailNp(), Toast.LENGTH_SHORT).show();
+
+                                }
+                            });
+                            return false;
+                        } else {
+                            float deltaX = x2 - x1;
+                            if (Math.abs(deltaX) > MIN_DISTANCE && deltaX > 0) {
+                                Toast.makeText(MainActivity.this, "left2right swipe", Toast.LENGTH_SHORT).show();
+                                increaseDay();
+                            } else if (Math.abs(deltaX) > MIN_DISTANCE && deltaX < 0) {
+                                Toast.makeText(MainActivity.this, "right2left swipe", Toast.LENGTH_SHORT).show();
+                                decreaseDay();
+                            } else
+                                // consider as something else - a screen tap for example
+                                break;
+                        }
+
+                }
+                return false;
+            }
+        });
+        //update texviews
+        getDaysInMonthMap();
+        year.setText(listOfDaysInMonth.get(0).getNyear() + "");
+        Typeface typeface = ResourcesCompat.getFont(MainActivity.this, R.font.dev_new);
+
+        year.setTypeface(typeface);
+        month.setText(monthofYear_NP(listOfDaysInMonth.get(0).getNmonth()));
+    }
+
+    private String monthofYear_NP(int month) {
+
+        String monthofYear = "";
+        switch (month) {
+            case 1:
+                monthofYear = "बैशाख";
+                break;
+            case 2:
+                monthofYear = "जेष्ठ";
+                break;
+            case 3:
+                monthofYear = "आषाढ";
+                break;
+            case 4:
+                monthofYear = "श्रावण";
+                break;
+            case 5:
+                monthofYear = "भाद्र";
+                break;
+            case 6:
+                monthofYear = "आश्विन";
+                break;
+            case 7:
+                monthofYear = "कार्तिक";
+                break;
+            case 8:
+                monthofYear = "मंसिर";
+                break;
+            case 9:
+                monthofYear = "पौष";
+                break;
+            case 10:
+                monthofYear = "माघ";
+                break;
+            case 11:
+                monthofYear = "फाल्गुन";
+                break;
+            case 12:
+                monthofYear = "चैत";
+                break;
+        }
+        return monthofYear;
+    }
+
+    private String getDaysOfWeek_np(int day) {
+        String dayname = "";
+        switch (day) {
+            case 1:
+                dayname = "आइतबार";
+                break;
+            case 2:
+                dayname = "सोमबार";
+                break;
+            case 3:
+                dayname = "मंगलवार";
+                break;
+            case 4:
+                dayname = "बुधबार ";
+                break;
+            case 5:
+                dayname = "बिहीबार";
+                break;
+            case 6:
+                dayname = "शुक्रबार";
+                break;
+            case 7:
+                dayname = "शनिबार";
+                break;
+            default:
+                //TODO
+                break;
+        }
+        return dayname;
+    }
+
+    private void saveEvents() {
+        new addEventToDatabase().execute("");
+    }
+
+    private void performLoop() {
+        new addDateToDatabse().execute("");
     }
 
     private void initDatabase() {
@@ -96,15 +306,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getViews() {
-        month = findViewById(R.id.month);
-        year = findViewById(R.id.year);
-        day = findViewById(R.id.day);
+        grid_view = findViewById(R.id.gridView_calendar);
         btn_submit = findViewById(R.id.convert);
+        next = findViewById(R.id.next);
+        previous = findViewById(R.id.previous);
+        month = findViewById(R.id.month_text);
+        year = findViewById(R.id.year_text);
     }
 
-    public Model getNepaliDate(@IntRange(from = 1913 - 2033) int engYY,
-                               @IntRange(from = 1, to = 12) int engMM,
-                               @IntRange(from = 1, to = 31) int engDD) {
+    public PatroModels getNepaliDate(@IntRange(from = 1913 - 2033) int engYY,
+                                     @IntRange(from = 1, to = 12) int engMM,
+                                     @IntRange(from = 1, to = 31) int engDD) {
 
         if (isEngDateInConversionRange(engYY, engMM, engDD)) {
 
@@ -121,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
             int nepYY, nepMM, nepDD;
             int dayOfWeek = startingDayOfWeek;
 
-            Model tempModel = new Model();
+            PatroModels tempPatroModels = new PatroModels();
 
             /*
             Calendar currentEngDate = new GregorianCalendar();
@@ -158,19 +370,144 @@ public class MainActivity extends AppCompatActivity {
                 }
                 totalEngDaysCount--;
             }
-            tempModel.setYear(nepYY);
-            tempModel.setMonth(nepMM - 1);
-            tempModel.setDay(nepDD);
-            tempModel.setDayOfWeek(dayOfWeek);
-            Log.d("Try Inserting:", "" + tempModel.getYear() + "" + tempModel.getMonth() + "" + tempModel.getDay());
+            tempPatroModels.setYear(nepYY);
+            tempPatroModels.setMonth(nepMM - 1);
+            tempPatroModels.setDay(nepDD);
+            tempPatroModels.setDayOfWeek(dayOfWeek);
+            Log.d("Try Inserting:", "" + tempPatroModels.getYear() + "" + tempPatroModels.getMonth() + "" + tempPatroModels.getDay());
 
-            return tempModel;
+            return tempPatroModels;
         } else throw new IllegalArgumentException("Out of Range: Date is out of range to Convert");
     }
 
     private void initializeData() {
         getStartWeekDayMonthMap();
         getDaysInMonthMap();
+    }
+
+    public String loadJSONFromAsset() {
+        InputStream iStream = MainActivity.this.getResources().openRawResource(R.raw.patro_event);
+        ByteArrayOutputStream byteStream = null;
+        try {
+            byte[] buffer = new byte[iStream.available()];
+            iStream.read(buffer);
+            byteStream = new ByteArrayOutputStream();
+            byteStream.write(buffer);
+            byteStream.close();
+            iStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return byteStream.toString();
+    }
+
+    @SuppressLint("StaticFieldLeak")
+    private class addEventToDatabase extends AsyncTask<String, Void, String> {
+
+
+        @Override
+        protected String doInBackground(String... strings) {
+            Gson gson = new Gson();
+            PatroEvent patroEvent = null;
+            InputStream is = getResources().openRawResource(R.raw.patro_event);
+            Writer writer = new StringWriter();
+            char[] buffer = new char[1024];
+            try {
+                Reader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+                int n;
+                while ((n = reader.read(buffer)) != -1) {
+                    writer.write(buffer, 0, n);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            String jsonString = writer.toString();
+            patroEvent = gson.fromJson(jsonString, PatroEvent.class);
+
+//            Log.d("CONVERTED JSON:2", jsonString.length() + "");
+//            Log.d("CONVERTED JSON:3", patroEvent.getPatroEventDetails().size() + "");
+            ContentValues contentValues = new ContentValues();
+            for (int i = 0; i < patroEvent.getEventDb().size(); i++) {
+                contentValues.put("event_id", patroEvent.getEventDb().get(i).getEventId());
+                contentValues.put("event_detail_np", patroEvent.getEventDb().get(i).getEventDetailNp());
+                contentValues.put("event_detail_en", patroEvent.getEventDb().get(i).getEventDetailEn());
+                contentValues.put("tithe", patroEvent.getEventDb().get(i).getTithe());
+                contentValues.put("holiday", patroEvent.getEventDb().get(i).getHoliday());
+                databaseHelper.insertIvents(contentValues);
+//                Log.d("STATUS",  + "");
+            }
+            return "executed";
+        }
+    }
+
+
+    @SuppressLint("StaticFieldLeak")
+    private class addDateToDatabse extends AsyncTask<String, Void, String> {
+
+        @Override
+        protected String doInBackground(String... params) {
+            int iniYear = 1914;
+            int iniMonth = 1;
+            int iniDay = 1;
+
+            int finYear = 2033;
+            int finMonth = 12;
+            int finDay = 31;
+            PatroModels patroModels;
+            for (int i = iniYear; i <= finYear; i++) {
+                for (int j = iniMonth; j <= finMonth; j++) {
+                    for (int k = iniDay; k <= finDay; k++) {
+                        if (isEngDateInConversionRange(i, j, k)) {
+                            try {
+                                patroModels = getNepaliDate(i, j, k);
+                                int act_month = patroModels.getMonth() + 1;
+                                ContentValues contentValues = new ContentValues();
+                                //nepali Day
+                                contentValues.put("nyear", patroModels.getYear());
+                                contentValues.put("nmonth", act_month);
+                                contentValues.put("nday", patroModels.getDay());
+                                //English Month
+                                contentValues.put("eyear", i);
+                                contentValues.put("emonth", j);
+                                contentValues.put("eday", k);
+                                //id
+                                String id = patroModels.getYear() + "/" + act_month + "/" + patroModels.getDay();
+                                contentValues.put("id", id);
+                                //day of the week(1=sun,2=mon..)
+                                contentValues.put("dayOfWeek", patroModels.getDayOfWeek());
+                                databaseHelper.insertDate(contentValues);
+                            } catch (IllegalArgumentException e) {
+                                Log.e("Error:", "IllegalArgumentException:-" + e.getMessage());
+                            }
+                        }
+
+                    }
+                }
+            }
+            return "Executed";
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            Toast.makeText(MainActivity.this, "Loading Data... Complete!!!", Toast.LENGTH_SHORT).show();
+            // might want to change "executed" for the returned string passed
+            // into onPostExecute() but that is upto you
+        }
+
+        @Override
+        protected void onPreExecute() {
+            Toast.makeText(MainActivity.this, "Loading Data...", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
     }
 
     private void getDaysInMonthMap() {
@@ -475,76 +812,6 @@ public class MainActivity extends AppCompatActivity {
 //        return startWeekDayMonthMap;
     }
 
-    @SuppressLint("StaticFieldLeak")
-    private class LongOperation extends AsyncTask<String, Void, String> {
-
-        @Override
-        protected String doInBackground(String... params) {
-            int iniYear = 1950;
-            int iniMonth = 1;
-            int iniDay = 1;
-            int finYear = 2033;
-            int finMonth = 12;
-            int finDay = 31;
-            int startdateofMonth = 1;
-
-            Model model;
-            for (int i = iniYear; i <= finYear; i++) {
-                for (int j = iniMonth; j <= 12; j++) {
-                    for (int k = iniDay; k <= 31; k++) {
-                        if (isEngDateInConversionRange(i, j, k)) {
-                            try {
-                                model = getNepaliDate(i, j, k);
-                                int act_month = model.getMonth() + 1;
-                                ContentValues contentValues = new ContentValues();
-                                contentValues.put("year", model.getYear());
-                                contentValues.put("month", act_month);
-                                contentValues.put("day", model.getDay());
-                                String id = model.getYear() + "/" + act_month + "/" + model.getDay();
-                                contentValues.put("id", id);
-                                contentValues.put("dayOfWeek", model.getDayOfWeek());
-                                contentValues.put("startingDay", startdateofMonth);
-                                databaseHelper.insertDate(contentValues);
-                                if (startdateofMonth != 7) {
-                                    startdateofMonth++;
-                                } else
-                                    startdateofMonth = 1;
-                            } catch (IllegalArgumentException e) {
-                                Log.d("Error Inserting:", "" + i + j + k);
-                            }
-                        }
-
-                    }
-                }
-            }
-
-            return "Executed";
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-
-            ArrayList<PatroModel> patroModelArrayList = databaseHelper.loadDate();
-            Log.d("SIZES OF DATABASE", "" + patroModelArrayList.size());
-            int i = 0;
-            do {
-                Log.d("PatroDate", "" + patroModelArrayList.get(i).getMonth() + "/" + patroModelArrayList.get(i).getDay() + "/" + patroModelArrayList.get(i).getYear());
-                i++;
-            }
-            while (i != patroModelArrayList.size());
-            // might want to change "executed" for the returned string passed
-            // into onPostExecute() but that is upto you
-        }
-
-        @Override
-        protected void onPreExecute() {
-            Toast.makeText(MainActivity.this, "Loading Data...", Toast.LENGTH_SHORT).show();
-        }
-
-        @Override
-        protected void onProgressUpdate(Void... values) {
-        }
-    }
 
 }
 

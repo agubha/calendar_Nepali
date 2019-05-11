@@ -1,0 +1,2559 @@
+{
+  "event_db": [
+    {
+      "event_id": "2076/1/1",
+      "event_detail_np": "नयाँ वर्ष / बिस्का: जात्रा",
+      "event_detail_en": "New Year/ Bisket Jatra",
+      "tithe": " नवमी / पञ्चाङ्ग: धृति कोउलव पुष्य",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/1/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी /पञ्चाङ्ग: गन्द गरीजी आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: वृद्धि बभ पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी /पञ्चाङ्ग: ध्रुव कोउलव उत्तर फाल्गुनी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/5",
+      "event_detail_np": " विश्व सम्पदा दिवस ",
+      "event_detail_en": "world Heritage Day",
+      "tithe": "चतुर्दशी /पञ्चाङ्ग: ब्यघता गरीजी हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा /पञ्चाङ्ग: हर्षन भाद्र चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " प्रतिपदा/ पञ्चाङ्ग: वज्र कोउलव स्वाति",
+      "holiday": 0
+    },
+    {
+      "event_id": "2019/1/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया /पञ्चाङ्ग: सिद्धि गरीजी विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/9",
+      "event_detail_np": " विश्व पृथ्वी दिवस ",
+      "event_detail_en": "World Earth Day",
+      "tithe": "तृतिया /पञ्चाङ्ग: वरियन भाद्र अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: परिघ बलव ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/11",
+      "event_detail_np": "लोकतन्त्र दिवस",
+      "event_detail_en": " Loktantra Diwas",
+      "tithe": "पञ्चमी /पञ्चाङ्ग: शिव तैतुला मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2019/1/12",
+      "event_detail_np": "विसं २०७२ सालको महाभुकम्पको सम्झना/विश्व औंलो दिवस",
+      "event_detail_en": "Remembrance of Nepal Earthquake 2072",
+      "tithe": "षष्ठी / पञ्चाङ्ग: सिद्ध वनाजी पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी / पञ्चाङ्ग: साध्य बभ उत्तराषाढ़ा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी / पञ्चाङ्ग: सुभ कोउलव श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2019/1/15",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: सुकला तैतुला श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी /पञ्चाङ्ग: ब्रम्ह वनाजी शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी / पञ्चाङ्ग: इन्द्र बभ शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/18",
+      "event_detail_np": "अन्तर्राष्ट्रिय मजदुर दिवस",
+      "event_detail_en": " World Labour Day",
+      "tithe": "द्वादशी / पञ्चाङ्ग: वैधृति कोउलव पूर्वभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/1/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: विश्कम्भ गरीजी उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: प्रिती भाद्र रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/21",
+      "event_detail_np": "मातातीर्थ औंसी",
+      "event_detail_en": "Mother's Day",
+      "tithe": "औंसी / पञ्चाङ्ग: अयुश्मान चतुश्पथ अश्विनि",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/1/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: सौभाग्य किम्स्तुघ्नम भरणी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/ पञ्चाङ्ग: सोभन बलव कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया / पञ्चाङ्ग: अतिगंदा तैतुला रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/25",
+      "event_detail_np": "विश्व रेडक्रस दिवस",
+      "event_detail_en": " World Redcross Day",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: सुकर्मन वनाजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/26",
+      "event_detail_np": " कानून दिवस",
+      "event_detail_en": "Law Day",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: धृति बभ आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: सूल कोउलव पुनर्वसु ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी /पञ्चाङ्ग: गन्द गरीजी पुष्य",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/1/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी / पञ्चाङ्ग: वृद्धि भाद्र आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/30",
+      "event_detail_np": "विश्व नर्स दिवस",
+      "event_detail_en": "World Nurse Day ",
+      "tithe": "नवमी / पञ्चाङ्ग: ध्रुव कोउलव मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/1/31",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी / पञ्चाङ्ग: हर्षन गरीजी पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/1",
+      "event_detail_np": "वृष संक्रान्ति/अन्तर्राष्ट्रिय परिवार दिवस/मोहिनी एकादशी",
+      "event_detail_en": "Jestha Sankranti/Mohini Eakadashi/International Day of Families",
+      "tithe": "एकादशी / पञ्चाङ्ग: वज्र भाद्र उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: सिद्धि बलव हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/3",
+      "event_detail_np": "विश्व दूरसञ्चार दिवस / विश्व उच्च रक्तचाप दिवस",
+      "event_detail_en": "World Telecommunication Day/ World Hypertension Day ",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: व्यतिपता तैतुला स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/4",
+      "event_detail_np": "बुद्ध जयन्ती",
+      "event_detail_en": " Buddha Jayanti",
+      "tithe": "पूर्णिमा / पञ्चाङ्ग: वरियन भाद्र विशाखा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: परिघ बलव अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: शिव तैतुला ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/7",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "तृतिया / पञ्चाङ्ग: सिद्ध वनाजी मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/8",
+      "event_detail_np": "अन्तर्राष्ट्रिय जैविक विविधता दिवस ",
+      "event_detail_en": " International Day for Biological Diversity",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: साध्य बभ पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/9",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: सुभ कोउलव उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: सुकला गरीजी उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: ब्रम्ह वनाजी श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/12",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: ब्रम्ह वनाजी श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " अष्टमी / पञ्चाङ्ग: वैधृति कोउलव शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: विश्कम्भ गरीजी पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/15",
+      "event_detail_np": "गणतन्त्र दिवस ",
+      "event_detail_en": "Republic Day",
+      "tithe": "दशमी / पञ्चाङ्ग: प्रिती भाद्र उत्तरभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी / पञ्चाङ्ग: अयुश्मान बलव रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/17",
+      "event_detail_np": " विश्व धुम्रपान रहित दिवस",
+      "event_detail_en": "World No Smoking Day ",
+      "tithe": "द्वादशी /  पञ्चाङ्ग: सौभाग्य तैतुला अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: सोभन वनाजी भरणी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: अतिगंदा सकुनी कृत्ति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " औंसी / पञ्चाङ्ग: सुकर्मन नगवाम रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " प्रतिपदा / पञ्चाङ्ग: धृति बभ म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/22",
+      "event_detail_np": "विश्व वातावरण दिवस ",
+      "event_detail_en": " World Environment Day ",
+      "tithe": "द्वितीया / पञ्चाङ्ग: गन्द कोउलव आर्द्रा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया / पञ्चाङ्ग: वृद्धि गरीजी पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: ध्रुव भाद्र पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: ब्यघता कोउलव आश्लेषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/2/26",
+      "event_detail_np": " कानून दिवस",
+      "event_detail_en": "Law Day",
+      "tithe": " सप्तमी / पञ्चाङ्ग: हर्षन गरीजी मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी / पञ्चाङ्ग: वज्र भाद्र पूर्व फाल्गु ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: सिद्धि बलव उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/29",
+      "event_detail_np": "विश्व बालश्रम विरुद्ध दिवस",
+      "event_detail_en": " World Day Against Child Labour",
+      "tithe": "दशमी  पञ्चाङ्ग: व्यतिपता तैतुला हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/30",
+      "event_detail_np": "विश्व नर्स दिवस",
+      "event_detail_en": "World Nurse Day ",
+      "tithe": "एकादशी / पञ्चाङ्ग: परिघ वनाजी चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/31",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: शिव बलव स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/2/32",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: सिद्ध तैतुला विशाखा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/1",
+      "event_detail_np": " मिथुन संक्रान्ति",
+      "event_detail_en": " Asar Sankranti ",
+      "tithe": " चतुर्दशी / पञ्चाङ्ग: साध्य वनाजी अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा / पञ्चाङ्ग: सुभ बभ ज्येष्ठा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/3",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: सुकला कोउलव मूल ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: ब्रम्ह गरीजी पूर्वाषाढ़ा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/5",
+      "event_detail_np": " विश्व शरणार्थी दिवस",
+      "event_detail_en": " World Refugee Day",
+      "tithe": "तृतिया / पञ्चाङ्ग: इन्द्र भाद्र उत्तराषाढ़ा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/6",
+      "event_detail_np": " विश्व योग दिवस / संगीत दिवस",
+      "event_detail_en": " World Yoga Day/World Music Day ",
+      "tithe": " चतुर्थी / पञ्चाङ्ग: वैधृति बभ श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/7",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": " पञ्चमी / पञ्चाङ्ग: विश्कम्भ कोउलव श्रविष्ठा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: प्रिती गरीजी शतभिषा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/9",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " सप्तमी / पञ्चाङ्ग: अयुश्मान भाद्र पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/10",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "अष्टमी /पञ्चाङ्ग: सौभाग्य बलव उत्तरभाद्रपदा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " नवमी / पञ्चाङ्ग: सोभन तैतुला उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/12",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " नवमी / पञ्चाङ्ग: अतिगंदा गरीजी रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी / पञ्चाङ्ग: सुकर्मन भाद्र अश्विनि ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " एकादशी / पञ्चाङ्ग: धृति बलव भरणी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/15",
+      "event_detail_np": "दहीचिउरा खाने दिन / राष्ट्रिय धान दिवस ",
+      "event_detail_en": " Curd and Beaten rice eating day/National Paddy Day",
+      "tithe": "द्वादशी / पञ्चाङ्ग: सूल तैतुला कृत्तिका ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: गन्द भाद्र रोहिणी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी / पञ्चाङ्ग: वृद्धि चतुश्पथ म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " प्रतिपदा / पञ्चाङ्ग: ध्रुव किम्स्तुघ्नम आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: ब्यघता बलव पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " तृतिया / पञ्चाङ्ग: वज्र तैतुला आश्लेषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: सिद्धि भाद्र मघा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " पञ्चमी / पञ्चाङ्ग: व्यतिपता बलव पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " षष्ठी / पञ्चाङ्ग: वरियन तैतुला उत्तर फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " अष्टमी / पञ्चाङ्ग: परिघ भाद्र हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी /  पञ्चाङ्ग: शिव बलव चित्रा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/26",
+      "event_detail_np": " विश्व जनसंख्या दिवस",
+      "event_detail_en": " World population Day",
+      "tithe": " दशमी / पञ्चाङ्ग: सिद्ध तैतुला स्वाति  ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " एकादशी / पञ्चाङ्ग: साध्य वनाजी विशाखा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " द्वादशी / पञ्चाङ्ग: सुकला बभ अनुराधा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/3/29",
+      "event_detail_np": "भानु जयन्ती",
+      "event_detail_en": " Bhanu Jayanti",
+      "tithe": " तरयोदशी / पञ्चाङ्ग: ब्रम्ह कोउलव ज्येष्ठा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " चतुर्दशी / पञ्चाङ्ग: इन्द्र गरीजी मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/3/31",
+      "event_detail_np": "गुरु पुर्णिमा/खण्डग्रास चन्द्र ग्रहण ",
+      "event_detail_en": "Guru Purnima ",
+      "tithe": " पूर्णिमा / पञ्चाङ्ग: वैधृति भाद्र पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/1",
+      "event_detail_np": " लुतो फाल्ने दिन ",
+      "event_detail_en": "  Luto Falne Din",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: विश्कम्भ बलव उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: प्रिती तैतुला श्र‌ावण ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/3",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "द्वितीया / पञ्चाङ्ग: अयुश्मान गरीजी श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " तृतिया / पञ्चाङ्ग: सौभाग्य भाद्र शतभिषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: सौभाग्य बलव शतभिषा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: सोभन तैतुला पूर्वभाद्रपदा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/7",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "षष्ठी / पञ्चाङ्ग: अतिगंदा वनाजी उत्तरभाद्रपदा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " सप्तमी / पञ्चाङ्ग: सुकर्मन बभ रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/9",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " अष्टमी / पञ्चाङ्ग: धृति बलव अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/10",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "नवमी / पञ्चाङ्ग: सूल तैतुला भरणी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी / पञ्चाङ्ग: गन्द वनाजी कृत्तिका",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/12",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी / पञ्चाङ्ग: वृद्धि बभ रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: ब्यघता कोउलव म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: हर्षन वनाजी आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/15",
+      "event_detail_np": " खीर खाने दिन",
+      "event_detail_en": " Kheer eating day",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: वज्र सकुनी पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी / पञ्चाङ्ग: सिद्धि नगवाम पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: व्यतिपता बलव आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/18",
+      "event_detail_np": " बराह जयन्ती",
+      "event_detail_en": " Baraha Jayanti",
+      "tithe": "तृतिया / पञ्चाङ्ग: वरियन तैतुला मघा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: शिव वनाजी उत्तर फाल्गुनी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/20",
+      "event_detail_np": " नाग पञ्चमी/कल्की जयन्ती",
+      "event_detail_en": "Naag Panchami/Kalki Jayanti ",
+      "tithe": " पञ्चमी / पञ्चाङ्ग: सिद्ध बलव हस्त",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: साध्य तैतुला चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/22",
+      "event_detail_np": " तुलसीदास जयन्ती",
+      "event_detail_en": "Tulsidas Jayanti ",
+      "tithe": "सप्तमी / पञ्चाङ्ग: सुभ वनाजी स्वाति ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी / पञ्चाङ्ग: सुकला बभ विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: ब्रम्ह कोउलव अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी / पञ्चाङ्ग: इन्द्र गरीजी ज्येष्ठा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी / पञ्चाङ्ग: वैधृति भाद्र मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: विश्कम्भ बलव पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: प्रिती तैतुला उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी /पञ्चाङ्ग: अयुश्मान वनाजी श्र‌ावण ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/4/30",
+      "event_detail_np": " जनैपुर्णिमा/रक्षाबन्धन",
+      "event_detail_en": " Janai Purnima/Raksha Bandhan",
+      "tithe": " पूर्णिमा / पञ्चाङ्ग: सौभाग्य बभ श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/31",
+      "event_detail_np": " गाईजात्रा (काठमाडौँ उपत्यका मात्र)",
+      "event_detail_en": " Gaijatra ( KTM valley only)",
+      "tithe": " प्रतिपदा / पञ्चाङ्ग: सोभन बलव श्रविष्ठा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/4/32",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": " द्वितीया / पञ्चाङ्ग: अतिगंदा तैतुला शतभिषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/1",
+      "event_detail_np": "सिंह संक्रान्ति ",
+      "event_detail_en": " Bhadra Sankranti ",
+      "tithe": "तृतिया / पञ्चाङ्ग: सुकर्मन वनाजी पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: धृति बभ उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/3",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: सूल कोउलव रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: गन्द तैतुला अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " षष्ठी / पञ्चाङ्ग: वृद्धि वनाजी भरणी ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/6",
+      "event_detail_np": " श्रीकृष्ण जन्माष्टमी",
+      "event_detail_en": " Shree Krishna Janmasthami Barta",
+      "tithe": "सप्तमी / पञ्चाङ्ग: ध्रुव बभ कृत्तिका",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/7",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": " अष्टमी / पञ्चाङ्ग: ब्यघता कोउलव रोहिणी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: हर्षन गरीजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/9",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी / पञ्चाङ्ग: वज्र भाद्र आर्द्रा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/10",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": "द्वादशी / पञ्चाङ्ग: सिद्धि कोउलव पुनर्वसु ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: व्यतिपता गरीजी पुष्य ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2019/5/12",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: परिघ भाद्र आश्लेषा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी / पञ्चाङ्ग: शिव चतुश्पथ मघा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " प्रतिपदा / पञ्चाङ्ग: सिद्ध बभ पूर्व फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/15",
+      "event_detail_np": "दर खाने दिन ",
+      "event_detail_en": "Dar Khaane ",
+      "tithe": "द्वितीया / पञ्चाङ्ग: साध्य कोउलव उत्तर फाल्गुनी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/16",
+      "event_detail_np": " हरितालिका तीज (महिला बिदा)",
+      "event_detail_en": "Haritalika Teej Barta ",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: सुभ वनाजी हस्त ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/17",
+      "event_detail_np": "ऋषिपञ्चमी/मङ्गल चौथी ",
+      "event_detail_en": "Rishi Panchami ",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: ब्रम्ह बभ चित्रा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी / पञ्चाङ्ग: इन्द्र कोउलव विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी / पञ्चाङ्ग: वैधृति गरीजी अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " अष्टमी / पञ्चाङ्ग: विश्कम्भ भाद्र ज्येष्ठा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: प्रिती बलव मूल ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/22",
+      "event_detail_np": " निजामती सेवा दिवस",
+      "event_detail_en": " Civil service DAy",
+      "tithe": "दशमी / पञ्चाङ्ग: अयुश्मान तैतुला मूल ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी / पञ्चाङ्ग: सौभाग्य वनाजी पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी / पञ्चाङ्ग: सोभन बभ उत्तराषाढ़ा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " त्रयोदशी / पञ्चाङ्ग: अतिगंदा कोउलव श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " चतुर्दशी /  पञ्चाङ्ग: सुकर्मन गरीजी श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/27",
+      "event_detail_np": "इन्द्रजात्रा ",
+      "event_detail_en": "Indra Jatra ",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: धृति वनाजी शतभिषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " पूर्णिमा / पञ्चाङ्ग: सूल बभ पूर्वभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/5/29",
+      "event_detail_np": " राष्ट्रिय बाल दिवस",
+      "event_detail_en": "National Children Day ",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: गन्द कोउलव उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: वृद्धि गरीजी रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/5/31",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया / पञ्चाङ्ग: ध्रुव भाद्र अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/1",
+      "event_detail_np": "विश्वकर्मा पूजा",
+      "event_detail_en": "  Bishwakarma Pooja",
+      "tithe": "चतुर्थी / पञ्चाङ्ग: ब्यघता बलव अश्विनि ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " पञ्चमी / पञ्चाङ्ग: हर्षन कोउलव भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/3",
+      "event_detail_np": " संविधान दिवस",
+      "event_detail_en": " Constitution Day ",
+      "tithe": " षष्ठी / पञ्चाङ्ग: वज्र गरीजी कृत्तिका",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी / पञ्चाङ्ग: सिद्धि भाद्र रोहिणी ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/5",
+      "event_detail_np": " जितियापर्व",
+      "event_detail_en": " Jitiya Parwa",
+      "tithe": "अष्टमी / पञ्चाङ्ग: व्यतिपता बलव म्रृगशीर्षा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी / पञ्चाङ्ग: वरियन तैतुला आर्द्रा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/7",
+      "event_detail_np": "",
+      "event_detail_en": "  ",
+      "tithe": " दशमी / पञ्चाङ्ग: परिघ वनाजी पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " एकादशी / पञ्चाङ्ग: शिव बलव पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/9",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " द्वादशी /पञ्चाङ्ग: सिद्ध तैतुला आश्लेषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/10",
+      "event_detail_np": " विश्व पर्यटन दिवस",
+      "event_detail_en": " World Tourism Day ",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: सुभ वनाजी पूर्व फाल्गुनी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " औंसी / पञ्चाङ्ग: सुकला चतुश्पथ उत्तर फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2019/6/12",
+      "event_detail_np": " घटस्थापना",
+      "event_detail_en": " Ghatasthapana",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: ब्रम्ह किम्स्तुघ्नम हस्त ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " द्वितीया / पञ्चाङ्ग: इन्द्र बलव चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/14",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " तृतिया / पञ्चाङ्ग: वैधृति गरीजी स्वाति ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/15",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " चतुर्थी / पञ्चाङ्ग: प्रिती भाद्र विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी / पञ्चाङ्ग: अयुश्मान बलव अनुराधा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " षष्ठी / पञ्चाङ्ग: सौभाग्य तैतुला ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/18",
+      "event_detail_np": "फूलपाती ",
+      "event_detail_en": "Phulpati ",
+      "tithe": " सप्तमी / पञ्चाङ्ग: सोभन वनाजी मूल",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/19",
+      "event_detail_np": " महाअष्टमी",
+      "event_detail_en": "Mahaastami ",
+      "tithe": " अष्टमी / पञ्चाङ्ग: अतिगंदा बभ पूर्वाषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/20",
+      "event_detail_np": "महानवमी ",
+      "event_detail_en": " Mahanawami",
+      "tithe": " नवमी / पञ्चाङ्ग: सुकर्मन कोउलव उत्तराषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/21",
+      "event_detail_np": " विजयादशमी",
+      "event_detail_en": " Vijaya Dashami",
+      "tithe": " दशमी / पञ्चाङ्ग: धृति गरीजी श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " एकादशी / पञ्चाङ्ग: सूल भाद्र श्रविष्ठा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": " द्वादशी / पञ्चाङ्ग: गन्द बभ शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी / पञ्चाङ्ग: वृद्धि कोउलव पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी / पञ्चाङ्ग: ध्रुव गरीजी उत्तरभाद्रपदा ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/6/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा / पञ्चाङ्ग: ब्यघता भाद्र उत्तरभाद्रपदा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा / पञ्चाङ्ग: हर्षन बलव रेवती ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया / पञ्चाङ्ग: वज्र तैतुला अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/29",
+      "event_detail_np": "विश्व खाद्य दिवस ",
+      "event_detail_en": " World Food Day",
+      "tithe": "द्वितीया / पञ्चाङ्ग: सिद्धि गरीजी भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/6/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया / पञ्चाङ्ग: व्यतिपता भाद्र कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/1",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/ पञ्चाङ्ग: वरियन बलव रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: परिघ तैतुला म्रृगशीर्षा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: शिव वनाजी आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/4",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: सिद्ध बभ पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: साध्य तैतुला पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सुभ वनाजी आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: सुकला बभ मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/ पञ्चाङ्ग: ब्रम्ह कोउलव पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/9",
+      "event_detail_np": " काग तिहार",
+      "event_detail_en": "kaag tihar",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: इन्द्र वनाजी उत्तर फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/10",
+      "event_detail_np": "कुकुर तिहार/ लक्ष्मी पूजा",
+      "event_detail_en": " kukur tihar/laxmi puja",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: विश्कम्भ सकुनी हस्त",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/11",
+      "event_detail_np": "गाई / गोरु तिहार/ म्हपूजा",
+      "event_detail_en": "gai tihar",
+      "tithe": "औंसी/पञ्चाङ्ग: प्रिती नगवाम स्वाति",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/12",
+      "event_detail_np": " भाइटीका (किजा पूजा)",
+      "event_detail_en": "Bhai tika",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: अयुश्मान बभ विशाखा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: सौभाग्य तैतुला अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सोभन वनाजी ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/15",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: अतिगंदा बभ मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/16",
+      "event_detail_np": " छठ पर्व",
+      "event_detail_en": "Chhath parba",
+      "tithe": "षष्ठी/ पञ्चाङ्ग: सुकर्मन कोउलव पूर्वाषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: धृति गरीजी उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: सूल भाद्र श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: गन्द बलव श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: वृद्धि कोउलव श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: ध्रुव गरीजी शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: ब्यघता भाद्र पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/ पञ्चाङ्ग: हर्षन बलव उत्तरभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/7/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: वज्र तैतुला रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/25",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: सिद्धि वनाजी अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा/पञ्चाङ्ग: व्यतिपता भाद्र भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: वरियन बलव कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/ पञ्चाङ्ग: परिघ तैतुला रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: शिव वनाजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/7/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सिद्ध बभ आर्द्रा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/1",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: सुभ कोउलव पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: सुकला गरीजी पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: ब्रम्ह बभ आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/4",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: इन्द्र कोउलव मघा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: वैधृति गरीजी पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: विश्कम्भ भाद्र उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: प्रिती बलव हस्त",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/ पञ्चाङ्ग: अयुश्मान गरीजी चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/9",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: सोभन भाद्र स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी/ पञ्चाङ्ग: अतिगंदा चतुश्पथ विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/ पञ्चाङ्ग: सुकर्मन किम्स्तुघ्नम अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/12",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: धृति बलव ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: सूल तैतुला मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: गन्द वनाजी पूर्वाषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/15",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: वृद्धि बभ उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: ध्रुव कोउलव श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/17",
+      "event_detail_np": "विश्व अपाङ्ग दिवस (अपाङ्ग मात्र)",
+      "event_detail_en": "International day of person with disabilities",
+      "tithe": "सप्तमी/पञ्चाङ्ग: ब्यघता गरीजी श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: हर्षन भाद्र शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: वज्र बलव पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सिद्धि तैतुला उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: व्यतिपता गरीजी रेवती",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/ पञ्चाङ्ग: वरियन भाद्र अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: परिघ बलव भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: शिव तैतुला कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/25",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: सिद्ध वनाजी कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/26",
+      "event_detail_np": "धान्य पूर्णिमा/ उँधौली पर्व/ योमरी पुन्ही",
+      "event_detail_en": "Dhanya purnima/yomari punhi",
+      "tithe": "पूर्णिमा/ पञ्चाङ्ग: साध्य बभ रोहिणी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/ पञ्चाङ्ग: सुभ कोउलव म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/ पञ्चाङ्ग: सुकला गरीजी आर्द्रा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/8/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: ब्रम्ह भाद्र पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/8/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/ पञ्चाङ्ग: वैधृति बलव आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/1",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: विश्कम्भ गरीजी मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/ पञ्चाङ्ग: प्रिती भाद्र पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: अयुश्मान बलव उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/4",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: सौभाग्य तैतुला हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सोभन वनाजी चित्रा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: अतिगंदा बलव स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: सुकर्मन तैतुला विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: सूल वनाजी अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076//9",
+      "event_detail_np": "  क्रिसमस",
+      "event_detail_en": "Christmas",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: गन्द सकुनी ज्येष्ठा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी/पञ्चाङ्ग: वृद्धि नगवाम मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: ध्रुव बभ पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/12",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: ब्यघता कोउलव उत्तराषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: हर्षन गरीजी श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: वज्र भाद्र श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/15",
+      "event_detail_np": "तमु ल्होसार",
+      "event_detail_en": "Tamu Loshar",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: सिद्धि बलव शतभिषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: व्यतिपता तैतुला पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: वरियन गरीजी उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: परिघ भाद्र उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: शिव बलव रेवती ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सिद्ध तैतुला अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: साध्य वनाजी भरणी ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: सुभ बभ कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: सुकला कोउलव रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: ब्रम्ह गरीजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/25",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा/पञ्चाङ्ग: इन्द्र भाद्र आर्द्रा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: वैधृति बलव पुनर्वसु",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/9/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: विश्कम्भ तैतुला पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: प्रिती वनाजी आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/9/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सौभाग्य बलव मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/1",
+      "event_detail_np": "मकर संक्रान्ति / माघे संक्रान्ति ",
+      "event_detail_en": "Maghi parwa/Maghe sankranti",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सौभाग्य बलव मघा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: अतिगंदा वनाजी हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: सुकर्मन बभ चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/4",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: धृति कोउलव स्वाति",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सूल वनाजी विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/ पञ्चाङ्ग: गन्द बभ अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: वृद्धि कोउलव ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: ब्यघता गरीजी मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/9",
+      "event_detail_np": "  ",
+      "event_detail_en": " ",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: हर्षन भाद्र पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी/पञ्चाङ्ग: वज्र चतुश्पथ उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/11",
+      "event_detail_np": "सोनाम ल्होसार",
+      "event_detail_en": "Sonam lhosar",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: सिद्धि किम्स्तुघ्नम श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/12",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: व्यतिपता बलव श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/ पञ्चाङ्ग: वरियन कोउलव श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: परिघ गरीजी शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/15",
+      "event_detail_np": "",
+      "event_detail_en": " ",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: शिव भाद्र पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/16",
+      "event_detail_np": "शहीद दिवस",
+      "event_detail_en": "National Marty's day",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: शिव भाद्र पूर्वभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: साध्य तैतुला रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/ पञ्चाङ्ग: साध्य तैतुला रेवती",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: सुभ भाद्र भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/ पञ्चाङ्ग: सुकला बलव कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/ञ्चाङ्ग: ब्रम्ह तैतुला रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: वैधृति वनाजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/ पञ्चाङ्ग: विश्कम्भ बभ आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/ पञ्चाङ्ग: प्रिती कोउलव पुनर्वसु ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/25",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/ पञ्चाङ्ग: अयुश्मान वनाजी पुष्य",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/10/26",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा/पञ्चाङ्ग: सौभाग्य बभ आश्लेषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/27",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: सोभन कोउलव मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: अतिगंदा गरीजी पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/10/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: धृति बभ उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/1",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: सूल कोउलव हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/  पञ्चाङ्ग: गन्द गरीजी चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: वृद्धि बभ स्वाति",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/4",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: ध्रुव कोउलव अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: ब्यघता गरीजी ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: हर्षन भाद्र मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/7",
+      "event_detail_np": "प्रजातन्त्र दिवस",
+      "event_detail_en": "Democracy Day",
+      "tithe": "एकादशी/पञ्चाङ्ग: वज्र बलव मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: सिद्धि तैतुला पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/9",
+      "event_detail_np": " महाशिवरात्रि",
+      "event_detail_en": "Maha shivaratri ",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: व्यतिपता वनाजी उत्तराषाढ़ा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: वरियन भाद्र श्र‌ावण",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/11",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "औंसी/पञ्चाङ्ग: परिघ चतुश्पथ श्रविष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/12",
+      "event_detail_np": "ग्याल्पो ल्होसार ",
+      "event_detail_en": "Gyalpo Lhosar",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: शिव किम्स्तुघ्नम शतभिषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: सिद्ध बलव पूर्वभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: साध्य तैतुला उत्तरभाद्रपदा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/15",
+      "event_detail_np": "",
+      "event_detail_en": " ",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सुभ वनाजी रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: सुकला भाद्र अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/ पञ्चाङ्ग: ब्रम्ह बलव भरणी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: इन्द्र तैतुला भरणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: वैधृति वनाजी कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: विश्कम्भ बभ रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/ पञ्चाङ्ग: प्रिती कोउलव म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: अयुश्मान गरीजी आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: सौभाग्य भाद्र पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: अतिगंदा बलव पुष्य",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/25",
+      "event_detail_np": " नारी दिवस",
+      "event_detail_en": "Women's day",
+      "tithe": "त्रयोदशी/ पञ्चाङ्ग: सुकर्मन तैतुला आश्लेषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/26",
+      "event_detail_np": "फागुपुर्णिमा ",
+      "event_detail_en": "Holi",
+      "tithe": "पूर्णिमा/ पञ्चाङ्ग: धृति भाद्र पूर्व फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/27",
+      "event_detail_np": "तराई होली ",
+      "event_detail_en": "Terai holi",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: सूल बलव उत्तर फाल्गुनी",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/11/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: गन्द गरीजी हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: ध्रुव भाद्र चित्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/11/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/ पञ्चाङ्ग: ब्यघता बलव स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/1",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: हर्षन तैतुला विशाखा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/2",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: वज्र भाद्र अनुराधा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/3",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: सिद्धि बलव ज्येष्ठा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/4",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "नवमी/  पञ्चाङ्ग: व्यतिपता तैतुला मूल",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/5",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: वरियन वनाजी पूर्वाषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/6",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: परिघ बभ उत्तराषाढ़ा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/7",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: शिव बलव श्र‌ावण",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/8",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: सिद्ध तैतुला श्रविष्ठा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/9",
+      "event_detail_np": " ",
+      "event_detail_en": " ",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: साध्य वनाजी शतभिषा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/10",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/ पञ्चाङ्ग: सुभ सकुनी पूर्वभाद्रपदा ",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/11",
+      "event_detail_np": "घोडेजात्रा",
+      "event_detail_en": "Ghode jatra",
+      "tithe": "औंसी/पञ्चाङ्ग: सुकला नगवाम उत्तरभाद्रपदा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/12",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "प्रतिपदा/पञ्चाङ्ग: ब्रम्ह बभ रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/13",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: इन्द्र बलव रेवती",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/14",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "तृतिया/ पञ्चाङ्ग: वैधृति तैतुला अश्विनि",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/15",
+      "event_detail_np": "",
+      "event_detail_en": " ",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: विश्कम्भ वनाजी भरणी ",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/16",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: प्रिती बभ कृत्तिका",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/17",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "षष्ठी/पञ्चाङ्ग: अयुश्मान कोउलव रोहिणी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/18",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "सप्तमी/पञ्चाङ्ग: सौभाग्य गरीजी म्रृगशीर्षा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/19",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "अष्टमी/पञ्चाङ्ग: सोभन भाद्र आर्द्रा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/20",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "नवमी/पञ्चाङ्ग: अतिगंदा बलव पुनर्वसु",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/21",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "दशमी/पञ्चाङ्ग: सुकर्मन तैतुला पुष्य",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/22",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "एकादशी/पञ्चाङ्ग: धृति वनाजी आश्लेषा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/23",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "द्वादशी/पञ्चाङ्ग: सूल बभ मघा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/24",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "त्रयोदशी/पञ्चाङ्ग: वृद्धि कोउलव पूर्व फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/25",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "चतुर्दशी/पञ्चाङ्ग: ध्रुव वनाजी उत्तर फाल्गुनी",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/26",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "पूर्णिमा/ पञ्चाङ्ग: ब्यघता बभ हस्त",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/27",
+      "event_detail_np": " ",
+      "event_detail_en": "",
+      "tithe": "द्वितीया/पञ्चाङ्ग: हर्षन तैतुला स्वाति",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/28",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "तृतिया/पञ्चाङ्ग: वज्र वनाजी विशाखा",
+      "holiday": 1
+    },
+    {
+      "event_id": "2076/12/29",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "चतुर्थी/पञ्चाङ्ग: व्यतिपता बभ अनुराधा",
+      "holiday": 0
+    },
+    {
+      "event_id": "2076/12/30",
+      "event_detail_np": "",
+      "event_detail_en": "",
+      "tithe": "पञ्चमी/पञ्चाङ्ग: वरियन कोउलव ज्येष्ठा",
+      "holiday": 1
+    }
+  ]
+}
